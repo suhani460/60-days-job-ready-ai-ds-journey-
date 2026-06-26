@@ -1,4 +1,4 @@
-# 🚀 60 Days AI & Data Science Job Ready Journey
+ 60 Days AI & Data Science Job Ready Journey
 
 Hi! I'm Suhani Verma.
 
