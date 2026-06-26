@@ -1,68 +1,68 @@
- #basics 
+#basics 
 
 #sum of two numbers 
-# a =  input("enter your first no")
-# b =  input("enter your second no")
-# print(int(a)+int(b)) 
+a =  input("enter your first no")
+b =  input("enter your second no")
+print(int(a)+int(b)) 
 
 #area of circle 
-# a=input("radius")
-# print("AREA  of circle =" ,  3.14 * float(a)**2 )
+a=input("radius")
+print("AREA  of circle =" ,  3.14 * float(a)**2 )
 
-# simple intrest 
-# p=input("p")
-# r=input("r")
-# t=input("t")
-# print ("simple intrest=" ,(float(p)*float(r)*float(t))/100)
+#simple intrest 
+p=input("p")
+r=input("r")
+t=input("t")
+print ("simple intrest=" ,(float(p)*float(r)*float(t))/100)
  
 #celcius to fehrenhiet 
-# c  =  float(input("c"))
-# print("fahrenheit =" ,float(9/5*c+32))
+c  =  float(input("c"))
+print("fahrenheit =" ,float(9/5*c+32))
 
-# #swap two numbers 
-# a = input()
-# b= input()
-# temp = a 
-# a = b 
-# b = temp
-# print(a,b)
+#swap two numbers 
+a = input()
+b= input()
+temp = a 
+a = b 
+b = temp
+print(a,b)
 
 #reverse the string
-# a = input("enter your string: ")
-# rev = ""
-# for i in a:
-#   rev =  i + rev
-# print ("  Reverse String:" , rev)
+a = input("enter your string: ")
+rev = ""
+for i in a:
+  rev =  i + rev
+print ("  Reverse String:" , rev)
   
-# fruit = "mango"
-# mangolen = len("fruit")
-# print(mangolen)
-# print(fruit[0:4])
+fruit = "mango"
+mangolen = len("fruit")
+print(mangolen)
+print(fruit[0:4])
 
-# strings qes
-#  qes 1 write a first letter  of string and the last letter of the string input
-# a = input("enter  your string :")
-# print("first character:" ,a[0], "last chracter :",a[-1])
+#strings qes
+ #qes 1 write a first letter  of string and the last letter of the string input
+a = input("enter  your string :")
+print("first character:" ,a[0], "last chracter :",a[-1])
 
-# qes2 Print the string in reverse using slicing.
-# a = input("enter here a string")
-# print(a[::-1])
+#qes2 Print the string in reverse using slicing.
+a = input("enter here a string")
+print(a[::-1])
 
 
 #Print every character on a new line using a loop.
-# a = input("enter string")
-# for character in a :
-#  print(character)
+a = input("enter string")
+for character in a :
+ print(character)
 
 
 #Q4 Print only the first 3 characters.
-# a  = input("enter character ")
-# print(a [0:4])
+a  = input("enter character ")
+print(a [0:4])
 
 
 #Print the last 4 characters.
-# a  = input("enter character ")
-# print(a[-4:])
+a  = input("enter character ")
+print(a[-4:])
 
 # Q6Take a string.
 # Print it in
@@ -70,22 +70,22 @@
 # Lowercase
 
  
-#Q7 Count how many times 'a' appears.3
-# st = "banana"
-# countst= st.count("a")
-# print(countst)
+# Q7 Count how many times 'a' appears.3
+st = "banana"
+countst= st.count("a")
+print(countst)
 
 # Replace every space with _
-# a ="my mummy is so beautiful"
-# print(a.replace(" " ,"_"))
+a ="my mummy is so beautiful"
+print(a.replace(" " ,"_"))
 
-#Check whether a word starts with P.
-# b = input("enter ")
-# print(b.startswith("p"))
+# Check whether a word starts with P.
+b = input("enter ")
+print(b.startswith("p"))
 
-#Check whether a word ends with n.
-# a=input("enter")
-# print(a.startswith("n"))
+# Check whether a word ends with n.
+a=input("enter")
+print(a.startswith("n"))
 
 # Q11
 
@@ -98,8 +98,8 @@
 # Pro
 # ming
 
-# a = "programming"
-# print(a[0:3])
-# print(a[-4:])
+a = "programming"
+print(a[0:3])
+print(a[-4:])
 
 
