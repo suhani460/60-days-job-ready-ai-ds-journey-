@@ -1,0 +1,39 @@
+a= int(input("Enter your age :"))
+print(a)
+# condition statement 
+# >,<,<=,>=,==,!=
+print(a>18)
+print(a<18)
+print(a<=18) 
+
+print(a>= 18)
+print (a == 18)
+ 
+if (a>18):
+    print("your can drive")
+else :
+    print("your cant drive")
+----------------------------------------------------------------------------------------------------------------------
+ # elif statement 
+a = int(input("enter  a no :"))
+if(a > 0):
+    print("num is positive" )
+elif(a==0):
+    print("num is equal to zero")
+else:
+    print("this is  red flag no ")
+----------------------------------------------------------------------------------------------------------------------
+#  match case 
+x = int (input ("enter the value of x: "))
+match x:
+    case 0:
+        print("x is zero ")
+    case 4:
+        print("case is 4 ")
+    case _ if x!=9:
+        print(" x is not 9")
+    case _ if x!=80:
+        print("x is not 80")
+    case _:
+        print(x)
+----------------------------------------------------------------------------------------------------------------------
