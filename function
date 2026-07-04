@@ -1,0 +1,26 @@
+ #normal calculation 
+ a = 4
+b = 8 
+gmean1 = (a+b)/(a*b)
+print(gmean1)
+ 
+d = 5
+c = 7 
+gmean2 = (c+d)/(c*d)
+print(gmean2)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# we are doing same with function
+a = int(input("enter your first no: "))
+b = int(input("enter your second no: "))
+def calculateGmen(a, b):
+    mean = (a+b)/(a*b)
+    print(mean)
+
+def greaterno (a,b):
+    if(a>b):
+        print("hoooo")
+    else:
+      print(" chall htttt")
+      
+calculateGmen(a,b)
+greaterno(a,b)
