@@ -1,0 +1,24 @@
+Q2. Count Vowels in a String
+Problem Statement
+
+Write a function count_vowels(text) that counts the total number of vowels (a, e, i, o, u) present in a string.
+
+Example 1
+
+Input:
+
+Hello World
+
+Output:
+
+Number of vowels: 3
+SOLUTION
+text = input("enter your string: ")
+def count_vowels(text):
+    count = 0
+    for ch in text:
+     if ch.lower() in "aeiou":
+      count = count + 1
+    return count
+result = count_vowels(text)
+print("no od vowels:" ,result)
