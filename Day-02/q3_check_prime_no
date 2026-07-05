@@ -1,0 +1,28 @@
+Q3. Check Prime Number
+
+Write a function is_prime(num) that checks whether a number is prime or not.
+
+Example 1:
+
+Input: 17
+
+Output: 17 is a Prime Number.
+
+Example 2:
+
+Input: 20
+
+Output: 20 is Not a Prime Number.
+
+SOLUTION
+a = int(input("enter your no "))
+
+if ( a <=1):
+     print("  your no is invalid")
+else:
+    for i in range(2, int(a**0.5) +1):
+     if a % i == 0:
+      print("no prime")
+      break
+    else:
+      print("prime")
