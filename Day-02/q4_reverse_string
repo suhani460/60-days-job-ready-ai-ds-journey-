@@ -1,0 +1,19 @@
+Q4. Reverse a String (Without Using [::-1])
+
+Write a function reverse_string(text) that reverses a string using a loop.
+
+Example:
+
+Input: Python
+
+Output: nohtyP
+ SOLUTION
+text = (input(" enter your string "))
+def reverse_string(text):
+    reverse =""
+    for i  in range (len(text) -1,-1,-1):
+     reverse = reverse + text[i]
+       
+    return reverse
+
+print(reverse_string(text))
